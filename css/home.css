@@ -1,0 +1,74 @@
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#bgVideo.active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#enter {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 47vh;
+    font-size: 16px;
+}
+
+#enterText {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#enterText.active {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#title {
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#socials {
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    top: 10vh;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: fixed;
+    color: #f1f1f1;
+    width: 100%;
+    font-size: large;
+    opacity: 0.0;
+}
+#content.active {
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#footer {
+    font-family: 'Raleway', sans-serif;
+    color: #f1f1f1;
+    position: fixed;     
+    text-align: center;    
+    bottom: 3vh; 
+    width: 100%;
+    opacity: 0.0;
+}
+
+#footer.active {
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+
